@@ -4,7 +4,7 @@ LABEL maintainer=felix.schumacher@internetallee.de
 RUN zypper --non-interactive install make gcc-fortran
 WORKDIR /build
 ADD *.f90 Makefile ./
-RUN make && ls
+RUN make
 
 FROM opensuse/leap:42.3
 
