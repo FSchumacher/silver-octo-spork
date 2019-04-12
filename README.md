@@ -1,2 +1,3 @@
 # silver-octo-spork
-Test Dockerimage
+
+Simple image that copies a file from ``${AUGUR_HOME}/in.txt`` to ``${AUGUR_HOME}/out.txt``
