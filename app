@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipe
+set -eo pipefail
 
 echo "Start copying files..."
 cp "${AUGUR_HOME}/in.txt" "${AUGUR_HOME}/out.txt"
